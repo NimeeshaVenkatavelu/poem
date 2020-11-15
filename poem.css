@@ -1,0 +1,80 @@
+* {
+  box-sizing: border-box;
+}
+
+@media only screen and (max-width: 1130px){
+
+.column
+    {
+        width:50%;
+        display:block;
+        margin-bottom: 20px;
+        margin-left: auto ;
+    }
+}
+
+@media only screen and (max-width: 750px){
+.column
+  {
+      width:100%;
+      display:block;
+      margin-bottom: 20px;
+      margin-left: auto ;
+  }
+}
+
+@media screen and (max-width:520px)
+{
+.column
+    {
+        width:100%;
+        display:block;
+        margin-bottom: 20px;
+
+    }
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Oleo+Script&display=swap');
+/* Add a gray background color with some padding */
+body {
+  font-family: 'Oleo Script', cursive;
+  padding: 20px;
+  background-image: linear-gradient(grey, white);
+}
+@import url('https://fonts.googleapis.com/css2?family=Oleo+Script&display=swap');
+/* Blog name*/
+.header {
+    background-image: linear-gradient(to left, violet, indigo, blue, green, yellow, orange, red);   -webkit-background-clip: text;
+    color: transparent;
+    font-family: 'Oleo Script', cursive;
+    text-align: center;
+}
+.img{
+    padding-right: 80px;
+    float: right;
+    border-radius: 8px;
+    height:auto;
+}
+
+.responsive{
+  width: 100%
+  height: auto;
+}
+
+.Blogtitle{
+padding-left: 100px;
+}
+
+/* Content*/
+.content{
+padding-left: 100px;
+}
+
+
+/* Responsive layout - when the screen is less than 800px wide, make the two columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 800px) {
+  .column, .column {
+    width: 100%;
+    padding: 0;
+  }
+}
