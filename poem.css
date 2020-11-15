@@ -50,9 +50,9 @@ body {
     text-align: center;
 }
 .img{
-    padding-right: 80px;
+    padding-right: 60px;
     float: right;
-    border-radius: 8px;
+    border-radius: 16px;
     height:auto;
 }
 
