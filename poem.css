@@ -39,7 +39,7 @@
 body {
   font-family: 'Oleo Script', cursive;
   padding: 20px;
-  background-image: linear-gradient(grey, white);
+  background: white;
 }
 @import url('https://fonts.googleapis.com/css2?family=Oleo+Script&display=swap');
 /* Blog name*/
